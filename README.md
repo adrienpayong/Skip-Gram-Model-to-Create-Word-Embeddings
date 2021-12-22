@@ -23,8 +23,9 @@ The next two columns are critical to our success.
 **The project's goal is to train the Skip-gram and FastText models to do word embeddings before developing a search engine with a Streamlit UI.** 
 ### Tech stack
 
-    - Language - Python
+     - Language - Python
     - Libraries and Packages - pandas, numpy, matplotlib, plotly, gensim, streamlit, nltk.
+    
  ### Approach 
  
    - Importing the required libraries
