@@ -25,8 +25,6 @@ The next two columns are critical to our success.
 
     - Language - Python
     - Libraries and Packages - pandas, numpy, matplotlib, plotly, gensim, streamlit, nltk.
-
- ### Environment – Jupyter Notebook
  ### Approach 
  
    - Importing the required libraries
