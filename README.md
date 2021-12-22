@@ -20,13 +20,13 @@ The next two columns are critical to our success.
 - Title 
 - Abstract 
 ### Aim
-The project's goal is to train the Skip-gram and FastText models to do word embeddings before developing a search engine with a Streamlit UI. 
+**The project's goal is to train the Skip-gram and FastText models to do word embeddings before developing a search engine with a Streamlit UI.** 
 ### Tech stack
 
     - Language - Python
     - Libraries and Packages - pandas, numpy, matplotlib, plotly, gensim, streamlit, nltk.
 
- Environment – Jupyter Notebook
+ ### Environment – Jupyter Notebook
  ### Approach 
  
    - Importing the required libraries
@@ -41,8 +41,7 @@ The project's goal is to train the Skip-gram and FastText models to do word embe
    - Perform lemmatization
    - Remove ‘\n’ character from the columns
    - Exploratory Data Analysis (EDA) 
-   -Data Visualization using word cloud
-
+   - Data Visualization using word cloud
    - Training the ‘Skip-gram’ model
    - Training the ‘FastText’ model
    - Model embeddings – Similarity
