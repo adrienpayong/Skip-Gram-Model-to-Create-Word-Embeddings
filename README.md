@@ -7,9 +7,7 @@ In this project, we will use Python to construct medical word embeddings using W
 
 Word2vec is a model that combines several models to represent dispersed representations of words in a corpus.
 Word2Vec (W2V) is an algorithm that takes in a text corpus and generates a vector representation for each word.
-FastText is a library developed by Facebook's Research Team to aid in the quick learning of word representations and sentence categorization.
-
-The goal of this project is to create a search engine and Streamlit UI using the trained models (Word2Vec and FastText). 
+FastText is a library developed by Facebook's Research Team to aid in the quick learning of word representations and sentence categorization. **The goal of this project is to create a search engine with Streamlit UI using the trained models (Word2Vec and FastText).** 
 ## Data Explanation
 For our research, we are evaluating a clinical trials dataset based on Covid-19.
 This dataset's URL is as follows:
