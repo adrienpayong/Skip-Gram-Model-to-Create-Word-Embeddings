@@ -29,31 +29,30 @@ The project's goal is to train the Skip-gram and FastText models to do word embe
  Environment – Jupyter Notebook
  ### Approach 
  
-    - Importing the required libraries
-    - Reading the dataset
-    - Pre-processing
+   - Importing the required libraries
+   - Reading the dataset
+   - Pre-processing
+   - Remove URLs
+   - Convert text to lower case
+   - Remove numerical values
+   - Remove punctuation.
+   - Perform tokenization
+   - Remove stop words
+   - Perform lemmatization
+   - Remove ‘\n’ character from the columns
+   - Exploratory Data Analysis (EDA) 
+   -Data Visualization using word cloud
 
-    - Remove URLs
-    - Convert text to lower case
-    - Remove numerical values
-    - Remove punctuation.
-    - Perform tokenization
-    - Remove stop words
-    - Perform lemmatization
-    - Remove ‘\n’ character from the columns
-    - Exploratory Data Analysis (EDA) 
-    -Data Visualization using word cloud
-
-    - Training the ‘Skip-gram’ model
-    - Training the ‘FastText’ model
-    - Model embeddings – Similarity
-    - PCA plots for Skip-gram and FastText models
-    - Convert abstract and title to vectors using the Skip-gram and FastText model
-    - Use the Cosine similarity function
-    - Perform input query pre-processing
-    - Define a function to return top ‘n’ similar results  
-    - Result evaluation
-    - Run the Streamlit Application
+   - Training the ‘Skip-gram’ model
+   - Training the ‘FastText’ model
+   - Model embeddings – Similarity
+   - PCA plots for Skip-gram and FastText models
+   - Convert abstract and title to vectors using the Skip-gram and FastText model
+   - Use the Cosine similarity function
+   - Perform input query pre-processing
+   - Define a function to return top ‘n’ similar results  
+   - Result evaluation
+   - Run the Streamlit Application
 
 
  
