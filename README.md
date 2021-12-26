@@ -51,5 +51,5 @@ The next two columns are critical to our success.
    - Run the Streamlit Application
 
 
- 
+ You can follow ![here](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Medical%20Embeddings_Final.ipynb)
 
