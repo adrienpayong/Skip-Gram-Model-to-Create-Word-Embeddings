@@ -143,7 +143,9 @@ for text in df.Abstract:
     
    
  **Exploratory Data Analysis (EDA)**
+ 
  ![source](![image](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capture1.PNG)
+ ![source](![image](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capture2.PNG)
 
     
    - Data Visualization using word cloud
