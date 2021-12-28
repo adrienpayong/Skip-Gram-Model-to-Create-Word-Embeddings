@@ -71,7 +71,7 @@ The following are some general actions that are taken as needed:
 - Stemming
 - Lemmatization
 - Tokenisation
-- 
+
 We will perform those actions 
    
  ```
