@@ -144,6 +144,7 @@ for text in df.Abstract:
    
  **Exploratory Data Analysis (EDA)**
  
+ 
  ![source](![image](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capture1.PNG)
  
  Word Clouds or Tag Clouds are text visualization techniques that are often used to visualize tags or phrases from webpages.
