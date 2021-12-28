@@ -51,7 +51,7 @@ from sklearn.model_selection import train_test_split
 nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('punkt')
-  ```
+```
     
    **Reading the dataset**
    ```
@@ -62,7 +62,7 @@ nltk.download('punkt')
  
    **Pre-processing**
    
-   ```
+ ```
    import re
 import nltk
 nltk.download('stopwords')
@@ -116,9 +116,11 @@ def preprocessing(text):
     text = lemmatize(text)
     text = ' '.join(text)
     return text
-     ```
+ ```
+    
     
     **Remove ‘\n’ character from the columns**
+    
    
    - Exploratory Data Analysis (EDA) 
    - Data Visualization using word cloud
