@@ -156,7 +156,7 @@ When building a Word Cloud, the amount of words is quite crucial.
 More words do not necessarily equal a better Word Cloud since it gets cluttered and difficult to read.
 A Word Cloud must always be semantically meaningful and reflect what it is intended to convey.
 
- ![source](![image](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capture2.PNG)
+ ![source](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capture2.PNG)
 
     
    - Data Visualization using word cloud
