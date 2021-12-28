@@ -116,8 +116,10 @@ def preprocessing(text):
     text = lemmatize(text)
     text = ' '.join(text)
     return text
-    ```
-   - Remove ‘\n’ character from the columns
+     ```
+    
+    **Remove ‘\n’ character from the columns**
+   
    - Exploratory Data Analysis (EDA) 
    - Data Visualization using word cloud
    - Training the ‘Skip-gram’ model
