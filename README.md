@@ -53,7 +53,13 @@ nltk.download('wordnet')
 nltk.download('punkt')
   ```
     
-   - Reading the dataset
+   **Reading the dataset**
+   ```
+   df=pd.read_csv('Dimension-covid.csv')   #for preprocessing
+   df1=pd.read_csv('Dimension-covid.csv')  #for returning results
+   ```
+   
+   - 
    - Pre-processing
    - Remove URLs
    - Convert text to lower case
