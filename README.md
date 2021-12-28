@@ -26,32 +26,9 @@ The next two columns are critical to our success.
     
  ### Approach 
  
-     **Importing the required libraries**
+     Importing the required libraries
     
-```
-import streamlit as st 
-import pandas as pd
-import numpy as np
-import gensim
-from gensim.models import Word2Vec
-from gensim.models import FastText
-from sklearn.decomposition import PCA
-from matplotlib import pyplot
-import matplotlib.pyplot as plt # our main display package
-import plotly.graph_objects as go
-import string # used for preprocessing
-import re # used for preprocessing
-import nltk # the Natural Language Toolkit, used for preprocessing
-import numpy as np # used for managing NaNs
-import nltk
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords # used for preprocessing
-from nltk.stem import WordNetLemmatizer # used for preprocessing
-from sklearn.model_selection import train_test_split
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('punkt')
-```
+
    - Reading the dataset
    - Pre-processing
    - Remove URLs
