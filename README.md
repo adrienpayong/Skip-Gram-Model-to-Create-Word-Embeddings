@@ -142,7 +142,10 @@ for text in df.Abstract:
  
     
    
-   - Exploratory Data Analysis (EDA) 
+ **Exploratory Data Analysis (EDA)**
+ ![source](![image](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capture1.PNG)
+
+    
    - Data Visualization using word cloud
    - Training the ‘Skip-gram’ model
    - Training the ‘FastText’ model
