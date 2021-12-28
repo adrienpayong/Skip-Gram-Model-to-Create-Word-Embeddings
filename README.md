@@ -67,10 +67,10 @@ A system for representing text is essential for the computer to recognize and in
 In other words, the text data is translated into a meaningful numerical representation for computers to analyze and comprehend. Certain preparation processes must be completed before vectorized text input is supplied to a machine learning/deep learning system.
 The following are some general actions that are taken as needed:
 
-    - Punctuation & Stop Word removal
-    - Stemming
-    - Lemmatization
-    - Tokenisation
+- Punctuation & Stop Word removal
+- Stemming
+- Lemmatization
+- Tokenisation
 
    
  ```
