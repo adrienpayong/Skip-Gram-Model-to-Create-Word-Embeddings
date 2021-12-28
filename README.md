@@ -117,9 +117,17 @@ def preprocessing(text):
     text = ' '.join(text)
     return text
  ```
-    
-    
-    **Remove ‘\n’ character from the columns**
+ **Remove ‘\n’ character from the columns**
+ ```
+ #Applying preprocessing and removing '\n' character
+
+for i in range(df.shape[0]):
+    df['Abstract'][i]=preprocessing(str(df['Abstract'][i])) 
+for text in df.Abstract:
+
+    text=text.replace('\n',' ') 
+  ```
+ 
     
    
    - Exploratory Data Analysis (EDA) 
