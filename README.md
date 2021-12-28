@@ -26,8 +26,8 @@ The next two columns are critical to our success.
     
  ### Approach 
  
-    **Importing the required libraries**
-   
+     **Importing the required libraries**
+    
 ```
 import streamlit as st 
 import pandas as pd
