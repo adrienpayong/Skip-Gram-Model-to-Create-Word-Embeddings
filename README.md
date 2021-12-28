@@ -59,15 +59,64 @@ nltk.download('punkt')
    df1=pd.read_csv('Dimension-covid.csv')  #for returning results
    ```
    
-   - 
-   - Pre-processing
-   - Remove URLs
-   - Convert text to lower case
-   - Remove numerical values
-   - Remove punctuation.
-   - Perform tokenization
-   - Remove stop words
-   - Perform lemmatization
+ 
+   **Pre-processing**
+   
+   ```
+   import re
+import nltk
+nltk.download('stopwords')
+from nltk.corpus import stopwords
+from nltk.stem.wordnet import WordNetLemmatizer
+# function to remove all urls
+def remove_urls(text):    
+    new_text = ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)"," ",text).split())
+    return new_text
+
+# make all text lowercase
+def text_lowercase(text):
+    return text.lower()
+
+# remove numbers
+def remove_numbers(text):
+    result = re.sub(r'\d+', '', text)
+    return result
+
+# remove punctuation
+def remove_punctuation(text):
+    translator = str.maketrans('', '', string.punctuation)
+    return text.translate(translator)
+
+# tokenize
+def tokenize(text):
+    text = word_tokenize(text)
+    return text
+
+# remove stopwords
+stop_words = set(stopwords.words('english'))
+def remove_stopwords(text):
+    text = [i for i in text if not i in stop_words]
+    return text
+
+# lemmatize Words 
+lemmatizer = WordNetLemmatizer()
+def lemmatize(text):
+    text = [lemmatizer.lemmatize(token) for token in text]
+    return text
+
+#Creating one function so that all functions can be applied at once
+def preprocessing(text):
+    
+    text = text_lowercase(text)
+    text = remove_urls(text)
+    text = remove_numbers(text)
+    text = remove_punctuation(text)
+    text = tokenize(text)
+    text = remove_stopwords(text)
+    text = lemmatize(text)
+    text = ' '.join(text)
+    return text
+    ```
    - Remove ‘\n’ character from the columns
    - Exploratory Data Analysis (EDA) 
    - Data Visualization using word cloud
