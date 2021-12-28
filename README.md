@@ -145,6 +145,17 @@ for text in df.Abstract:
  **Exploratory Data Analysis (EDA)**
  
  ![source](![image](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capture1.PNG)
+ 
+ Word Clouds or Tag Clouds are text visualization techniques that are often used to visualize tags or phrases from webpages.
+These keywords are often single words that describe the context of the site from which the word cloud is created.
+A Word Cloud is formed by grouping these words together. The font size and color tone of each word in this cloud vary.
+As a result, this depiction aids in determining terms of significance.
+A larger font size for a word emphasizes its significance in comparison to other words in the cluster.
+Word Clouds may be made in a variety of forms and sizes, depending on the creator's concept.
+When building a Word Cloud, the amount of words is quite crucial.
+More words do not necessarily equal a better Word Cloud since it gets cluttered and difficult to read.
+A Word Cloud must always be semantically meaningful and reflect what it is intended to convey.
+
  ![source](![image](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capture2.PNG)
 
     
