@@ -27,7 +27,8 @@ The next two columns are critical to our success.
  ### Approach 
  
    - Importing the required libraries
-'''
+   
+```
 import streamlit as st 
 import pandas as pd
 import numpy as np
@@ -50,7 +51,7 @@ from sklearn.model_selection import train_test_split
 nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('punkt')
-'''
+```
    - Reading the dataset
    - Pre-processing
    - Remove URLs
