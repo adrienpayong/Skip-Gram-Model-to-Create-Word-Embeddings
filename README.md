@@ -26,9 +26,7 @@ The next two columns are critical to our success.
     
  ### Approach 
  
-     Importing the required libraries
     
-
    - Reading the dataset
    - Pre-processing
    - Remove URLs
