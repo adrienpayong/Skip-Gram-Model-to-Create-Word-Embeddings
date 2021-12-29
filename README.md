@@ -207,7 +207,7 @@ FastText = Word2Vec.load('FastText.bin')  #Loading our pretrained model
    
    ![source](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Captureskip.PNG)
    
-    let’s try which words are most similar to the word “corona” and “patient” with Skig-gram
+   let’s try which words are most similar to the word “lung” and “breathing” with FastText.
     
    ![source](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capturefast.PNG)
    
