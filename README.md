@@ -215,13 +215,10 @@ FastText = Word2Vec.load('FastText.bin')  #Loading our pretrained model
    PCA plots for Skip-gram and FastText models
 
 ![source](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capturepca.PNG)
+![source](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capturefastest.PNG)
     
-   - Convert abstract and title to vectors using the Skip-gram and FastText model
-   - Use the Cosine similarity function
-   - Perform input query pre-processing
-   - Define a function to return top ‘n’ similar results  
-   - Result evaluation
-   - Run the Streamlit Application
+   
+  - Run the Streamlit Application
 
 
  You can follow ![here](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Medical%20Embeddings_Final.ipynb)
