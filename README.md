@@ -178,6 +178,14 @@ skipgram = Word2Vec(x, vector_size =100, window = 1, min_count=2,sg = 1)
 print(skipgram)
 skipgram.save('skipgramx11.bin')
  ```
+ 
+size: The number of dimensions of the embeddings, which is set to 100 by default.
+window: The greatest distance between a target word and the words surrounding it.
+The default window size is 5. 
+min count: The minimum number of words to consider while training the model; words with less than this number of occurrences will be disregarded.
+The min count value is set to 5 by default.
+sg:CBOW(0) or skip gram as the training algorithm. CBOW is the default training algorithm. 
+
    - Training the ‘FastText’ model
    - Model embeddings – Similarity
    - PCA plots for Skip-gram and FastText models
