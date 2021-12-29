@@ -162,7 +162,15 @@ A Word Cloud must always be semantically meaningful and reflect what it is inten
 
     
   
-   - Training the ‘Skip-gram’ model
+    Training the ‘Skip-gram’ model
+    Word embedding is a term used in natural language processing to represent words for text analysis, often in real-valued vectors that store the meaning of the word. Closed words in vector space are supposed to have comparable meanings.
+Word embedding employs language modeling and feature learning methods to map vocabulary words to vectors of real numbers. 
+Word2vec is a two-layer neural network that "vectorizes" words to analyze text.
+It takes a text corpus as input and returns a collection of vectors as output.
+Feature vectors corresponding to words in that corpus.
+Once trained, a model of this kind may find synonymous terms or propose extra words for an incomplete text.
+Word2vec, as the name indicates, represents each different word with a specific collection of integers known as a vector.
+The vectors are carefully designed in such a way that a simple mathematical function (the cosine similarity between the vectors) reflects the amount of semantic similarity between the words represented by those vectors. 
    - Training the ‘FastText’ model
    - Model embeddings – Similarity
    - PCA plots for Skip-gram and FastText models
