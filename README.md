@@ -188,7 +188,8 @@ The min count value is set to 5 by default.
 
 
 
-   - Training the ‘FastText’ model
+    **Training the ‘FastText’ model**
+    
    - Model embeddings – Similarity
    - PCA plots for Skip-gram and FastText models
    - Convert abstract and title to vectors using the Skip-gram and FastText model
