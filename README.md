@@ -184,7 +184,7 @@ skipgram.save('skipgramx11.bin')
 The default window size is 5. 
 - min count: The minimum number of words to consider while training the model; words with less than this number of occurrences will be disregarded.
 The min count value is set to 5 by default.
-- sg:CBOW(0) or skip gram as the training algorithm. CBOW is the default training algorithm. 
+- sg: CBOW(0) or skip gram(1) as the training algorithm. CBOW is the default training algorithm. 
 
 
 
