@@ -146,6 +146,8 @@ for text in df.Abstract:
  
  ![source](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capture1.PNG)
  
+**Data Visualization using word cloud**
+ 
  Word Clouds or Tag Clouds are text visualization techniques that are often used to visualize tags or phrases from webpages.
 These keywords are often single words that describe the context of the site from which the word cloud is created.
 A Word Cloud is formed by grouping these words together. The font size and color tone of each word in this cloud vary.
@@ -159,7 +161,7 @@ A Word Cloud must always be semantically meaningful and reflect what it is inten
  ![source](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capture2.PNG)
 
     
-   - Data Visualization using word cloud
+  
    - Training the ‘Skip-gram’ model
    - Training the ‘FastText’ model
    - Model embeddings – Similarity
