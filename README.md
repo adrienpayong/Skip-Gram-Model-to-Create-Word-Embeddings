@@ -203,9 +203,13 @@ FastText = Word2Vec.load('FastText.bin')  #Loading our pretrained model
     
    **Model embeddings – Similarity**
    
-   let’s try which words are most similar to the word “man”.
+   let’s try which words are most similar to the word “corona” and “patient” with Skig-gram .
    
    ![source](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Captureskip.PNG)
+   
+    let’s try which words are most similar to the word “corona” and “patient” with Skig-gram
+    
+   ![source](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capturefast.PNG)
    
    - PCA plots for Skip-gram and FastText models
    - Convert abstract and title to vectors using the Skip-gram and FastText model
