@@ -175,15 +175,14 @@ The vectors are carefully designed in such a way that a simple mathematical func
 In other words, the Continuous Skip-Gram Model predicts terms before and after the current word in the same sentence. We train the genism word2vec model with our own custom corpus as following:
   ```
  # training the model
-skipgram = Word2Vec(x, vector_size =100, window = 1, min_count=2,sg = 1)
+skipgram = Word2Vec(x, size =100, window = 5, min_count=5,sg = 1)
 print(skipgram)
 skipgram.save('skipgramx11.bin')
  ```
- 
+- x: The list of split sentences. 
 - size: The number of dimensions of the embeddings, which is set to 100 by default.
-- window: The greatest distance between a target word and the words surrounding it.
-The default window size is 5. 
-- min count: The minimum number of words to consider while training the model; words with less than this number of occurrences will be disregarded.
+- window: The greatest distance between a target word and the words surrounding it. 
+- min_count: The minimum number of words to consider while training the model; words with less than this number of occurrences will be disregarded.
 The min count value is set to 5 by default.
 - sg: CBOW(0) or skip gram(1) as the training algorithm. CBOW is the default training algorithm. 
 
@@ -191,7 +190,23 @@ The min count value is set to 5 by default.
 
     **Training the ‘FastText’ model**
     
-   - Model embeddings – Similarity
+ FastText is a Word2Vec enhancement suggested by Facebook in 2016.
+FastText divides words into many n-grams rather than putting individual words into the Neural Network (sub-words).
+We will get word embeddings for all n-grams given the training dataset after training the Neural Network.
+Rare words can now be adequately represented since some of their n-grams are likely to exist in other words. 
+
+```
+FastText=FastText(x,vector_size=100, window=2, min_count=2, workers=5, min_n=1, max_n=2,sg=1)
+FastText.save('FastText.bin')    #Saving our model
+FastText = Word2Vec.load('FastText.bin')  #Loading our pretrained model
+```
+    
+   **Model embeddings – Similarity**
+   
+   let’s try which words are most similar to the word “man”.
+   
+   ![source](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Captureskip.PNG)
+   
    - PCA plots for Skip-gram and FastText models
    - Convert abstract and title to vectors using the Skip-gram and FastText model
    - Use the Cosine similarity function
