@@ -212,6 +212,9 @@ FastText = Word2Vec.load('FastText.bin')  #Loading our pretrained model
    ![source](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capturefast.PNG)
    
    - PCA plots for Skip-gram and FastText models
+
+    ![source](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capturepca.PNG)
+    
    - Convert abstract and title to vectors using the Skip-gram and FastText model
    - Use the Cosine similarity function
    - Perform input query pre-processing
