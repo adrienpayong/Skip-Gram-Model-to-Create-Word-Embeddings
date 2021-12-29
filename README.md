@@ -171,7 +171,13 @@ Feature vectors corresponding to words in that corpus.
 Once trained, a model of this kind may find synonymous terms or propose extra words for an incomplete text.
 Word2vec, as the name indicates, represents each different word with a specific collection of integers known as a vector.
 The vectors are carefully designed in such a way that a simple mathematical function (the cosine similarity between the vectors) reflects the amount of semantic similarity between the words represented by those vectors. Word2vec is a combination of CBOW(Continues Bag of word) and Skip-Gram. The continuous skip-gram model learns by predicting the words around the current word.
-In other words, the Continuous Skip-Gram Model predicts terms before and after the current word in the same sentence. 
+In other words, the Continuous Skip-Gram Model predicts terms before and after the current word in the same sentence. We train the genism word2vec model with our own custom corpus as following:
+  ```
+ # training the model
+skipgram = Word2Vec(x, vector_size =100, window = 1, min_count=2,sg = 1)
+print(skipgram)
+skipgram.save('skipgramx11.bin')
+ ```
    - Training the ‘FastText’ model
    - Model embeddings – Similarity
    - PCA plots for Skip-gram and FastText models
