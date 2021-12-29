@@ -186,6 +186,8 @@ The default window size is 5.
 The min count value is set to 5 by default.
 - sg:CBOW(0) or skip gram as the training algorithm. CBOW is the default training algorithm. 
 
+
+
    - Training the ‘FastText’ model
    - Model embeddings – Similarity
    - PCA plots for Skip-gram and FastText models
