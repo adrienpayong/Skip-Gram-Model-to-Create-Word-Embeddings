@@ -168,6 +168,7 @@ Word embedding employs language modeling and feature learning methods to map voc
 Word2vec is a two-layer neural network that "vectorizes" words to analyze text.
 It takes a text corpus as input and returns a collection of vectors as output.
 Feature vectors corresponding to words in that corpus.
+
 Once trained, a model of this kind may find synonymous terms or propose extra words for an incomplete text.
 Word2vec, as the name indicates, represents each different word with a specific collection of integers known as a vector.
 The vectors are carefully designed in such a way that a simple mathematical function (the cosine similarity between the vectors) reflects the amount of semantic similarity between the words represented by those vectors. Word2vec is a combination of CBOW(Continues Bag of word) and Skip-Gram. The continuous skip-gram model learns by predicting the words around the current word.
