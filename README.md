@@ -222,6 +222,7 @@ FastText = Word2Vec.load('FastText.bin')  #Loading our pretrained model
 
 Open the command prompt and run the command: streamlit run Medical.py
 You must make sure that the dataset and the python file are in the same folder;
+
 You will get this:
 ![source](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capturesearchengine.PNG)
 
