@@ -216,6 +216,13 @@ FastText = Word2Vec.load('FastText.bin')  #Loading our pretrained model
 
 ![source](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capturepca.PNG)
 ![source](https://github.com/adrienpayong/Skip-Gram-Model-to-Create-Word-Embeddings/blob/main/Capturefastest.PNG)
+
+   **Buid streamlit function** 
+   
+If you are new to web development, Streamlit is the greatest tool for you.
+It is an open-source Python framework for deploying machine learning models in a few of lines of code.
+You may use this framework to execute not just machine learning models, but also fundamental programs in the form of interactive web apps.
+![source](https://github.com/adrienpayong/create-a-search-engine-with-Streamlit-UI-/blob/main/Capturestreamlit.PNG)
     
    
   **Run the Streamlit Application**
