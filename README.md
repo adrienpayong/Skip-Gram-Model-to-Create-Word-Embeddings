@@ -227,7 +227,7 @@ You may use this framework to execute not just machine learning models, but also
    
   **Run the Streamlit Application**
 
-Open the command prompt and run the command: streamlit run Medical.py
+Open the command prompt and run the command: streamlit run Medical.py.
 You must make sure that the dataset and the python file are in the same folder;
 
 You will get this:
