@@ -12,7 +12,8 @@ FastText is a library developed by Facebook's Research Team to aid in the quick 
 For our research, we are evaluating a clinical trials dataset based on Covid-19.
 This dataset's URL is as follows:
 
-Link:https://dimensions.figshare.com/articles/dataset/Dimensions COVID-19 publications datasets and clinical trials/11961063
+Link:https://dimensions.figshare.com/articles/dataset/Dimensions_COVID-19_publications_datasets_and_clinical_trials/11961063 COVID-19 publications datasets and clinical trials/11961063
+
 The dataset consists of 10666 rows and 21 columns.
 The next two columns are critical to our success.
 - Title 
